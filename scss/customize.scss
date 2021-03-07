@@ -1,0 +1,22 @@
+$button-color: red;
+
+@mixin button-style($backcolor, $textcolor){
+    margin-top: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: $textcolor;
+    height: 50px;
+    background-color: $backcolor;
+    font-size: large;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    padding: auto;
+    border: none;
+};
+
+@mixin box-shadow {
+    box-shadow: 1px -2px 34px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -2px 34px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -2px 34px -3px rgba(0,0,0,0.75);
+}
